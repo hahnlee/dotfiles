@@ -24,6 +24,7 @@ brew cask install android-studio
 # Brew Cask Version
 brew tap homebrew/cask-versions
 brew cask install docker-edge
+brew install docker-compose
 
 # Git
 git config --global user.name "hahnlee"
