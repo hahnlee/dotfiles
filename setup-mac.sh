@@ -15,6 +15,7 @@ brew tap caskroom/cask
 brew cask install alfred
 brew cask install iterm2
 brew cask install visual-studio-code
+brew cask install firefox
 brew cask install google-chrome
 brew cask install postman
 
