@@ -18,6 +18,8 @@ brew cask install visual-studio-code
 brew cask install firefox
 brew cask install google-chrome
 brew cask install postman
+brew cask install macs-fan-control
+brew cask install yujitach-menumeters
 
 # Android
 brew cask install android-studio
