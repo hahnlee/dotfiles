@@ -32,3 +32,6 @@ brew install docker-compose
 # Git
 git config --global user.name "hahnlee"
 git config --global user.email hanlee.dev@gmail.com
+
+# nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
