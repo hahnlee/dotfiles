@@ -17,6 +17,9 @@ brew cask install google-chrome
 brew cask install postman
 brew cask install macs-fan-control
 
+# Job
+brew cask install zeplin
+
 # Brew Cask Version
 brew tap homebrew/cask-versions
 brew cask install docker-edge
