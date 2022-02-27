@@ -1,10 +1,6 @@
 # Brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install vim
-brew install node
-brew install yarn
-
 # ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -18,5 +14,13 @@ brew install --cask google-chrome
 git config --global user.name "hahnlee"
 git config --global user.email hanlee.dev@gmail.com
 
-# fnm
+# Node
+brew install node
+brew install yarn
 curl -fsSL https://fnm.vercel.app/install | bash
+
+# Vim
+brew install vim
+
+## Vim plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
