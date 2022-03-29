@@ -10,6 +10,10 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+" Edit
+set backspace=indent,eol,start
+set mouse=a
+
 " Display
 set number
 set background=light
@@ -25,6 +29,7 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 "" Initialize plugin system
