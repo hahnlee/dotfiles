@@ -34,4 +34,8 @@ brew install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ## Update vimrc
-wget https://raw.githubusercontent.com/hahnlee/dotfiles/main/.vimrc -O ~/.vimrc
+wget https://raw.githubusercontent.com/hahnlee/dotfiles/main/vimrc -O ~/.vimrc
+
+## Install vim
+vim +PlugInstall +qall
+
