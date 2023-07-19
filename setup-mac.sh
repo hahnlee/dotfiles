@@ -10,22 +10,33 @@ git config --global user.email hanlee.dev@gmail.com
 
 # Shell
 brew install wget
+brew install fzf
+brew install bat
 
 # Brew Cask
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask firefox
 brew install --cask google-chrome
+brew install --cask insomnia
+brew install --cask fig
+brew install --cask slack
+brew install --cask pritunl
+brew install --cask keepingyouawake
+brew install --cask flipper
 
 # Node
 brew install node
 brew install yarn
+brew install pnpm
+brew install watchman
+
+# Ruby & RVM
+curl -sSL https://get.rvm.io | bash -s stable
+sudo gem install cocoapods
 
 ## fnm
 curl -fsSL https://fnm.vercel.app/install | bash
-
-# fzf
-brew install fzf
 
 # Vim
 brew install vim
