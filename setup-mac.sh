@@ -24,6 +24,7 @@ brew install --cask slack
 brew install --cask pritunl
 brew install --cask keepingyouawake
 brew install --cask flipper
+brew install --cask rectangle
 
 # Node
 brew install node
