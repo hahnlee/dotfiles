@@ -13,28 +13,26 @@ brew install wget
 brew install fzf
 brew install bat
 
+# Agents
+curl -fsSL https://claude.ai/install.sh | bash
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+
 # Brew Cask
-brew install --cask iterm2
+## Dev tools
+brew install --cask ghostty 
 brew install --cask visual-studio-code
-brew install --cask firefox
-brew install --cask google-chrome
-brew install --cask insomnia
-brew install --cask fig
-brew install --cask slack
-brew install --cask pritunl
+brew install --cask claude
+brew install --cask chatgpt
+
+## genral
+brew install --cask aside
 brew install --cask keepingyouawake
-brew install --cask flipper
-brew install --cask rectangle
+brew install --cask raycast
 
 # Node
 brew install node
-brew install yarn
 brew install pnpm
 brew install watchman
-
-# Ruby & RVM
-curl -sSL https://get.rvm.io | bash -s stable
-sudo gem install cocoapods
 
 ## fnm
 curl -fsSL https://fnm.vercel.app/install | bash
